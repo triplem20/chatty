@@ -1,16 +1,12 @@
 # chatty
 
-A new Flutter project.
+#Output
 
-## Getting Started
+<img width="214" alt="Screenshot 2024-08-25 221501" src="https://github.com/user-attachments/assets/8ce3a7b6-6ec6-43e3-a006-2127ce70cf34">
+<img width="214" alt="Screenshot 2024-08-25 221402" src="https://github.com/user-attachments/assets/237f15b2-8626-4038-b5ff-87fea52ca430">
+<img width="224" alt="Screenshot 2024-08-25 221339" src="https://github.com/user-attachments/assets/50219a84-aa37-41fe-b1b9-16fa8a4bff9c">
+<img width="224" alt="Screenshot 2024-08-25 221319" src="https://github.com/user-attachments/assets/9920b427-1ea5-45ce-846d-665cf0824891">
+<img width="223" alt="Screenshot 2024-08-25 221535" src="https://github.com/user-attachments/assets/80239c0b-bbd9-480a-957b-36499899ba95">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
