@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'chat_screen.dart';
 import 'package:chatty/firebase_services.dart';
 
+import 'newchat_screen.dart';
+
 final _fireStore = FirebaseFirestore.instance;
 final _auth = FirebaseAuth.instance;
 final ChatServices _chatServices = ChatServices();
@@ -26,6 +28,17 @@ class _ChatsScreenState extends State<ChatsScreen> {
       drawer: MyDrawer(),
       appBar: AppBar(
         title: Text('Chats'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.chat),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => NewChatScreen()),
+              );
+            },
+          ),
+        ],
       ),
       body: _buildUserList(),
     );
@@ -62,6 +75,7 @@ class _ChatsScreenState extends State<ChatsScreen> {
       },
     );
   }
+
   Widget _buildUserListItem(Map<String, dynamic> userData, BuildContext context) {
     return UserTile(
       text: userData['email'],

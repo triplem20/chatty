@@ -1,4 +1,5 @@
-    import 'package:flutter/material.dart';
+    import 'package:chatty/screens/chats_screen.dart';
+import 'package:flutter/material.dart';
     import 'package:chatty/constants.dart';
     import 'package:cloud_firestore/cloud_firestore.dart';
     import 'package:firebase_auth/firebase_auth.dart';
@@ -45,6 +46,7 @@
       Widget build(BuildContext context) {
         return Scaffold(
           appBar: AppBar(
+            leading: IconButton(icon:Icon(Icons.arrow_back), onPressed: () { Navigator.pushNamed(context, ChatsScreen.id); },),
             title: Text(widget.recieverEmail),
             backgroundColor: Colors.teal,
           ),
